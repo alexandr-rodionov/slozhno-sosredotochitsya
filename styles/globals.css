@@ -39,4 +39,13 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+img {
+  max-inline-size: 100%;
+  display: block;
 }
