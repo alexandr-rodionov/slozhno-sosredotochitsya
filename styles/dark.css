@@ -10,3 +10,14 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+:root .theme_dark {
+  --bg-color: #000028;
+  --bg-image: url(../images/cover-image-dark.png);
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --decorated-color: var(--accent-color);
+  --main-title-color: #db00ff;
+  --subtitle-color: var(--bg-color);
+  --display-icon: inline-flex;
+}
