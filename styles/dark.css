@@ -12,12 +12,13 @@
 }
 
 :root .theme_dark {
-  --bg-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
+  --bg-color: #000028;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
-  --decorated-color: var(--accent-color);
   --main-title-color: #db00ff;
   --subtitle-color: var(--bg-color);
+  --decorated-color: var(--accent-color);
+  --section-title-color: var(--accent-color);
   --display-icon: inline-flex;
 }

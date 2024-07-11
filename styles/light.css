@@ -12,29 +12,27 @@
 }
 
 :root .theme_light {
-  --bg-color: #fff1f7;
   --bg-image: url(../images/cover-image-light.png);
+  --bg-color: #fff1f7;
   --text-color: #353430;
   --accent-color: #ff8dcb;
-  --decorated-color: var(--text-color);
   --main-title-color: #ffc2e6;
   --subtitle-color: var(--text-color);
+  --decorated-color: var(--text-color);
+  --section-title-color: var(--text-color);
   --display-icon: none;
-}
-
-.theme_light .content__section-title {
-  --accent-color: var(--text-color);
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-color: #fff1f7;
     --bg-image: url(../images/cover-image-light.png);
+    --bg-color: #fff1f7;
     --text-color: #353430;
     --accent-color: #ff8dcb;
-    --decorated-color: var(--text-color);
     --main-title-color: #ffc2e6;
     --subtitle-color: var(--text-color);
+    --decorated-color: var(--text-color);
+    --section-title-color: var(--text-color);
     --display-icon: none;
   }
 }

@@ -4,17 +4,18 @@
 */
 
 :root {
-  --bg-color: #000028;
+  --size-viewport-block: 100vb;
+  --main-font: 'IBM Plex Mono';
+  --main-offset: clamp(10px, 2.61vi , 20px);
+  --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --bg-image: url(../images/cover-image-dark.png);
+  --bg-color: #000028;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
-  --decorated-color: var(--accent-color);
-  --main-font: 'IBM Plex Mono';
   --main-title-color: #db00ff;
-  --title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --subtitle-color: var(--bg-color);
-  --main-offset: clamp(10px, 2.61vi , 20px);
-  --size-viewport-block: 100vb;
+  --decorated-color: var(--accent-color);
+  --section-title-color: var(--accent-color);
   --display-icon: inline-flex;
 }
 
